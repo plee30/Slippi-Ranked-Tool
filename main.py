@@ -17,7 +17,7 @@ print(folder_to_watch)
 # Function to process a new file
 def process_new_file(file_path):
     print(f"Processing new file: {file_path}")
-    time.sleep(10)
+    time.sleep(1)
     print("Sleeping done")
     # Create the tail command
     tail_command = ['tail', '-c+1', '-f', file_path]
